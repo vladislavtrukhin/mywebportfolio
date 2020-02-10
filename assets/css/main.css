@@ -58,6 +58,14 @@ body {
 }
 
 /* Text */
+
+#home p {
+	font-size: 20px;
+	color:#fff;
+	text-align: center;
+	font-style: italic;
+}
+
 .ptext {
 	font-size: 40px;
 	letter-spacing: 8px;
@@ -99,7 +107,7 @@ li {
 
 li a{
 	text-align: center;
-	padding:0 60px;
+	padding:0 25px;
 	color: #fff;
 	text-decoration: none;
 	display: flex;
@@ -125,7 +133,8 @@ a:active {
 @media(max-width:733px) {
 	li a {
 		text-align: center;
-		padding:0 20px;
+		font-size: 15px;
+		padding:0 10px;
 		color: #fff;
 		text-decoration: none;
 	}
